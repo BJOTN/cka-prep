@@ -3,8 +3,7 @@
   "description": "List cert-manager CRDs and extract kubectl documentation for a specific CRD field.",
   "details": {
     "intro": {
-      "text": "intro.md",
-      "foreground": "foreground.sh"
+      "text": "intro.md"
     },
     "steps": [
       {
