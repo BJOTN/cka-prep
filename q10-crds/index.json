@@ -1,0 +1,22 @@
+{
+  "title": "CRDs - Explore cert-manager Custom Resources",
+  "description": "List cert-manager CRDs and extract kubectl documentation for a specific CRD field.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "List CRDs and extract field documentation",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

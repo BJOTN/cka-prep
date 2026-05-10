@@ -1,0 +1,21 @@
+{
+  "title": "StorageClass - Create and Set as Default",
+  "description": "Create a new StorageClass with WaitForFirstConsumer binding, then make it the only default StorageClass in the cluster.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Create and configure the default StorageClass",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ingress - Expose a Deployment via HTTP",
+  "description": "Create a NodePort service for an echo server and expose it via an Ingress resource on a specific path.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Create service and Ingress resource",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

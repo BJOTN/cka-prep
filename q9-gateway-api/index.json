@@ -1,0 +1,22 @@
+{
+  "title": "Gateway API - Migrate from Ingress",
+  "description": "Migrate an existing Ingress resource to the Kubernetes Gateway API using Gateway and HTTPRoute resources.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Create Gateway and HTTPRoute",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

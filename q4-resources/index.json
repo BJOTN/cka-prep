@@ -1,0 +1,22 @@
+{
+  "title": "Resource Allocation - WordPress Deployment",
+  "description": "Configure CPU and memory requests and limits evenly across all containers in a multi-replica WordPress deployment.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Set resource requests and limits",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

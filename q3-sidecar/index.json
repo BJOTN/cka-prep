@@ -1,0 +1,22 @@
+{
+  "title": "Sidecar Container - Shared Log Volume",
+  "description": "Add a sidecar container to an existing WordPress deployment to tail its log file via a shared volume.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Add sidecar to WordPress deployment",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

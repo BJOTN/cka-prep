@@ -1,0 +1,22 @@
+{
+  "title": "Troubleshooting - Fix kube-apiserver after Migration",
+  "description": "The kube-apiserver is not starting after a cluster migration. Find and fix the misconfiguration.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Fix the kube-apiserver configuration",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "CRI-Dockerd - Install and Configure",
+  "description": "Install the cri-dockerd package and configure the required kernel network parameters.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Install cri-dockerd and set sysctl parameters",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

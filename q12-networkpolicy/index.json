@@ -1,0 +1,22 @@
+{
+  "title": "NetworkPolicy - Choose the Least Permissive Policy",
+  "description": "Analyze three NetworkPolicy candidates and apply the one that allows frontend-backend communication with minimum permissions.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Analyze and apply the correct NetworkPolicy",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

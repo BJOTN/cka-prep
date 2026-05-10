@@ -1,0 +1,22 @@
+{
+  "title": "HPA - Horizontal Pod Autoscaler",
+  "description": "Create an HPA for an Apache deployment with CPU-based scaling and a custom downscale stabilization window.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Create the HorizontalPodAutoscaler",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

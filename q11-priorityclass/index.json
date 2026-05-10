@@ -1,0 +1,22 @@
+{
+  "title": "PriorityClass - Assign Scheduling Priority",
+  "description": "Create a PriorityClass just below the existing highest value and patch a deployment to use it.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Create PriorityClass and patch deployment",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

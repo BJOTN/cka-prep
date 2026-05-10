@@ -1,0 +1,22 @@
+{
+  "title": "TLS Config - Restrict nginx to TLSv1.3 Only",
+  "description": "Edit a ConfigMap to restrict nginx to TLSv1.3, update /etc/hosts, and verify with curl.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Restrict TLS version and verify",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

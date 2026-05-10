@@ -1,0 +1,22 @@
+{
+  "title": "MariaDB - Persistent Volume Recovery",
+  "description": "Recover a MariaDB deployment by reusing an existing PersistentVolume after accidental deletion.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Recover MariaDB with PVC",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

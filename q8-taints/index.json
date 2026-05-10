@@ -1,0 +1,21 @@
+{
+  "title": "Taints and Tolerations",
+  "description": "Taint a node to prevent normal scheduling, then deploy a pod with the correct toleration to run on that node.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Apply taint and schedule a tolerating pod",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

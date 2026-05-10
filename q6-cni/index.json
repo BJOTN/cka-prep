@@ -1,0 +1,21 @@
+{
+  "title": "CNI - Install a Container Network Interface",
+  "description": "Install and configure a CNI plugin that supports pod communication and NetworkPolicy enforcement.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Install a CNI plugin",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

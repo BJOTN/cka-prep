@@ -1,0 +1,21 @@
+{
+  "title": "ArgoCD - Helm Install without CRDs",
+  "description": "Install Argo CD using Helm while skipping CRD installation, and save the generated manifest.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Install ArgoCD via Helm template",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}

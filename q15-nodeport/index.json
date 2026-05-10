@@ -1,0 +1,22 @@
+{
+  "title": "NodePort - Expose a Deployment",
+  "description": "Add a named container port to a deployment and expose it via a NodePort service on port 30080.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Configure container port and create NodePort service",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
+}
